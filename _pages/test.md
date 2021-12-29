@@ -1,6 +1,6 @@
 ---
-title: "Posts by Category"
-layout: home
+title: "Comments"
+layout: comments
 permalink: /test
 author_profile: true
 ---
