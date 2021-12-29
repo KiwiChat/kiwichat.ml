@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # url: "kiwichat.ml"  
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: "air" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 teaser: /assets/images/teaser-image.png
 
