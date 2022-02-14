@@ -3,6 +3,8 @@
   <input type="hidden" name="fields[codeword]" value="super-secret">
   
   <input type="text" name="fields[subdomain]" id="website" placeholder="WebSite" required>
+  <label class="comment-subdomain" for="subdomain{{ include.reply }}">request subdomain</label><input name="fields[subdomain]" id="subdomain{{ include.reply }}" type="subdomain" pattern=".kiwichat.ml" />
+  
   
   <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}" />
   <input name="options[slug]" type="hidden" value="{{ include.slug }}" />
