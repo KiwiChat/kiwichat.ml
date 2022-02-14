@@ -1,6 +1,9 @@
 <form id="post-new-comment{{ include.reply }}" class="new-comment" {% if include.reply %} hidden{% endif %}>
   <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
   <input type="hidden" name="fields[codeword]" value="super-secret">
+  
+  <input type="text" name="fields[subdomain]" id="website" placeholder="WebSite" required>
+  
   <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}" />
   <input name="options[slug]" type="hidden" value="{{ include.slug }}" />
   {% if include.reply %}<input name="fields[replyto]" type="hidden" value="entry{{ include.reply }}" />{% endif %}
