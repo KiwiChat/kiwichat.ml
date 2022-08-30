@@ -71,4 +71,6 @@ KiwiChat is distributed by an [GPLv3 or later](http://www.gnu.org/licenses/gpl-3
 
 <!-- github  button -->
 <a class="github-button" href="https://github.com/KiwiChat/wp-kiwichat" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="View it on GitHub">View it on GitHub</a>
+
+<a class="wordpress-button" href="https://wordpress.org/plugins/kiwichat" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" aria-label="View it on WordPress">View it on WordPress</a>
    
