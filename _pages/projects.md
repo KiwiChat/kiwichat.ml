@@ -12,5 +12,19 @@ Try the new IRC KiwiChat WordPress plugin that works! based on kiwiirc nexclient
 
 KiwiChat is an online chat client, your IRC client based on kiwiirc Add your networks. Join your channels.
 
+[https://kiwichat.github.io](https://kiwichat.github.io/)
+
  [View it on WordPress](https://wordpress.org/plugins/kiwichat/)
 ---
+
+## LiberaChat WordPress Plugin
+
+![KiwiChat Banner Image](https://app-libera.github.io/assets/screenshot-3.png)
+
+The App LiberaChat plugin for WordPress allows you to use the chat service of the Libera.Chat network on your WordPress site. 
+
+The App LiberaChat plugin is an online chat client, your IRC client based on kiwiirc
+
+[https://app-libera.github.io](https://app-libera.github.io/)
+
+[View it on WordPress](https://wordpress.org/plugins/app-liberachat/)
