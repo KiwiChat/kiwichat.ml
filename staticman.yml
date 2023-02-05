@@ -18,7 +18,7 @@ comments:
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
   allowedOrigins: ["kiwichat.ml"]
-  bannedDomains: ["biamb", "https://fqxtzbiyr.com", "https://iujxnsp.com", "https://biamb.world4news.biz.pl"]
+  bannedDomains: ["https://fqxtzbiyr.com", "https://iujxnsp.com", "https://biamb.world4news.biz.pl"]
   # (*) REQUIRED
   #
   # Name of the branch being used. Must match the one sent in the URL of the
@@ -94,5 +94,5 @@ comments:
   transforms:
     email: md5
     
- akismet:
-    enabled: true
+ # akismet:
+ #   enabled: true
