@@ -4,8 +4,8 @@
 
         var buttonPress = function ()
         {
-            var com = document.getElementById('comment-form-message'); // comment-form-message - comment - comments
-            var filterWords = ["biamb", "iujxnsp", "fqxtzbiyr", "world4news];
+            var com = document.getElementById('message'); // comment-form-message - comment - comments - message
+            var filterWords = ["biamb", "iujxnsp", "fqxtzbiyr", "world4news", "test"];
             // "i" is to ignore case and "g" for global
             var rgx = new RegExp("("+filterWords.join("|")+")", "gi");
             com.value = com.value.replace(rgx, "****");
