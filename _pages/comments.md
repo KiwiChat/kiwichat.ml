@@ -1,8 +1,6 @@
 ---
 title: "Comments"
-layout: default
 permalink: /comments
-author_profile: true
 ---
  <p>test comments</p>
 <form method="POST" action="{{ site.staticman_url }}" onsubmit="return buttonPress();">
