@@ -23,7 +23,6 @@
 {% endif %}
 <!-- Comments Form -->
   <form method="POST" action="{{ site.staticman_url }}" onsubmit="return buttonPress();">
-     <textarea name="comments" id="comments" rows="5" cols="50"></textarea>
     <input name="options[redirect]" type="hidden" value="https://example.com">
     <input name="options[slug]" type="hidden" value="{{ page.slug }}">
       <label>Name</label>
@@ -33,7 +32,7 @@
       <label>Website (optional)</label>
       <input name="fields[url]" type="url">
       <label>Message</label>
-      <textarea style="width:100%" name="fields[message]" rows="12"></textarea>
+      <textarea style="width:100%" name="fields[message]" id="comments" rows="12"></textarea>
       <small>Comments will appear after moderation.</small>   
       <button type="submit">Submit comment</button>
   </form>
